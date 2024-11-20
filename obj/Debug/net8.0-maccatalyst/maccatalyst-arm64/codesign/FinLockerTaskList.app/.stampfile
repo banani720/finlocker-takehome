@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - --entitlements /Users/baselanani/src/FinLockerTaskList/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent /Users/baselanani/src/FinLockerTaskList/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/FinLockerTaskList.app

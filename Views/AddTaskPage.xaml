@@ -1,0 +1,20 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinLockerTaskList.Views.AddTaskPage"
+             Title="Add Task"
+             Shell.NavBarIsVisible="False">
+    <StackLayout Padding="20">
+        <Entry x:Name="TitleEntry" Text="{Binding Task.Title}" Placeholder="Enter Task Title" />
+        <Editor x:Name="DescriptionEditor" Text="{Binding Task.Title}" Placeholder="Enter Task Description" />
+        <Picker x:Name="StatusPicker" Title="Select Task Status">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Incomplete</x:String>
+                    <x:String>In Progress</x:String>
+                    <x:String>Complete</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+        <Button Text="Save" Clicked="OnSaveButtonClicked" />
+    </StackLayout>
+</ContentPage>

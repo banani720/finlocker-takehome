@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/baselanani/src/FinLockerTaskList/bin/Debug/net8.0-ios/iossimulator-arm64/FinLockerTaskList.app/libxamarin-dotnet-debug.dylib
