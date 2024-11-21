@@ -35,6 +35,8 @@ public class TaskListViewModel : BaseViewModel, INotifyPropertyChanged
         _taskListService = new TaskListService(Tasks);
     }
 
+    public TaskListViewModel() : this([]) {}
+
     private async void AddTask()
     {
         var addTaskPage = new AddTaskPage();
