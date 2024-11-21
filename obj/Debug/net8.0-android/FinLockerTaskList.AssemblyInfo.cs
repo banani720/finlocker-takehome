@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinLockerTaskList")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+41d4ae43de1a089c1017bf0f3edcc07706383102")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3e86b3d3140419f2bf75f6e63c649f8cf71f9924")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinLockerTaskList")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinLockerTaskList")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -4,8 +4,8 @@
              Title="Add Task"
              Shell.NavBarIsVisible="False">
     <StackLayout Padding="20">
-        <Entry x:Name="TitleEntry" Text="{Binding Task.Title}" Placeholder="Enter Task Title" />
-        <Editor x:Name="DescriptionEditor" Text="{Binding Task.Title}" Placeholder="Enter Task Description" />
+        <Entry x:Name="TitleEntry" Placeholder="Enter Task Title" />
+        <Editor x:Name="DescriptionEditor" Placeholder="Enter Task Description" />
         <Picker x:Name="StatusPicker" Title="Select Task Status">
             <Picker.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
